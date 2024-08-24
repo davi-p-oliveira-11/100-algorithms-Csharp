@@ -22,7 +22,8 @@ namespace _100_Algorithms_csharp.HelloEmployee
             PressEnterToExit();
         }
 
-        public static void SayHelloEmployee() {
+        public static void SayHelloEmployee() 
+        {
 
            Console.WriteLine("What is the employee name ? \r");
            string name = Console.ReadLine();
